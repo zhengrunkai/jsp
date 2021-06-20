@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+
